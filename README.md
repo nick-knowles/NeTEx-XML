@@ -6,13 +6,13 @@ Netex XML Schema
 NeTEX XMl schema
 (C) 2009-2015  NeTEX , CEN, Crown Copyright
         
-NeTwork EXchange : Core, Part 1 (Network),  Part 2 (Timetables , Part3 (Fares)   Schemas
+NeTwork EXchange  XML schemas for : Core, Part 1 (Network),  Part 2 (Timetables), Part 3 (Fares)
 ================================================
 
 This is a version 1.01  of the CEN NeTEx schema
 See the NeTEx UML Physical and Conceptual models for an UML view
 
-The schema is modlarised into subschema, grouped into directories  corresponding to the  The Part 1,  Part 2 and Part 3
+The schema is modularised into subschema, grouped into directories  corresponding to the  The Part 1,  Part 2 and Part 3
 schema. 
 
 There is an XMLSpy project file in the root directory  that provides an organised view  of the schema and examples
