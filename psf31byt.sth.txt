@@ -1,0 +1,120 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	deleted:    schema/1.01/tapexamples/B1/B1-TCVC txt to xml.mfd
+#	deleted:    schema/1.01/tapexamples/B1/B1-TCVG txt to xml.mfd
+#	deleted:    schema/1.01/tapexamples/B1/B1-TCVP txt to csv.mfd
+#	deleted:    schema/1.01/tapexamples/B1/B1-TCVP txt to xml.mfd
+#	deleted:    schema/1.01/tapexamples/B1/B1-TCVS txt to xml.mfd
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080 emmerich/DB 1080 Emmerich version.zip
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080 emmerich/DB 1080 Emmerich version/20001080.TXT
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080 emmerich/DB 1080 Emmerich version/B1-TCVP.mfd
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080 emmerich/DB 1080 Emmerich version/B1-TCVP.mfx
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080 emmerich/DB 1080 Emmerich version/DB 1080 emmerich - Shortcut.lnk
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080 emmerich/DB 1080 Emmerich version/TCV1080.TXT
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080 emmerich/DB 1080 Emmerich version/TCVC1080.TXT
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080 emmerich/DB 1080 Emmerich version/TCVC1080.csv
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080 emmerich/DB 1080 Emmerich version/TCVG1080.TXT
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080 emmerich/DB 1080 Emmerich version/TCVM1080.TXT
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080 emmerich/DB 1080 Emmerich version/TCVP1080.TXT
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080 emmerich/DB 1080 Emmerich version/TCVP1080.csv
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080 emmerich/DB 1080 Emmerich version/TCVP1080.xlsx
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080 emmerich/DB 1080 Emmerich version/TCVS1080.TXT
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080 emmerich/NS 1184 Emmerich/DB 1080 original version.zip
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080 emmerich/NS 1184 Emmerich/NS 1184 Emmerich version.zip
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080 emmerich/NS 1184 Emmerich/NS 1184 original version.zip
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/20001080.txt
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/20021080.txt
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCV1080 Explenations.zip
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCV1080 Maps.zip
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCV1080.txt
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCVC1080.csv
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCVC1080.txt
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCVC1080.xlsx
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCVG1080.txnk.csv
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCVG1080.txnk.xlsx
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCVG1080.txt
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCVG1080.xlsx
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCVG1080zzzz.txt
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCVM1080.txt
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCVM1080.xlsx
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCVO1080.xlsx
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCVP-H-1080.xlsx
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCVP-I-1080.xlsx
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCVP-J-1080.xlsx
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCVP1080.csv
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCVP1080.txt
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCVP1080.xlsx
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCVS1080.txt
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCVS1080.xlsx
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/TCVT1080.xlsx
+#	deleted:    schema/1.01/tapexamples/B1/DB 1080/~$TCVS1080.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/1080/PCAV1080XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/1080/PCAV1080XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/1080/PCCA1080XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/1080/PCCV1080XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/1080/PCET1080XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/1080/PCEX1080XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/1080/PCEX1080XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/1080/PCGA1080XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/1080/PCGA1080XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/1080/PCGO1080XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/1080/PCGO1080XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/1080/PCNC1080XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/1080/PCNC1080XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/1080/PCPR1080XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/1080/PCTA1080XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/1080/PCTA1080XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/1080/PCZO1080XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/1080/PCZO1080XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/1080/zJunk/PCAV1180XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/1153/PCAV1153XXX
+#	deleted:    schema/1.01/tapexamples/B2/1153/PCCA1153XXX
+#	deleted:    schema/1.01/tapexamples/B2/1153/PCET1153XXX
+#	deleted:    schema/1.01/tapexamples/B2/1153/PCEX1153XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/1153/PCGA1153XXX
+#	deleted:    schema/1.01/tapexamples/B2/1153/PCNC1153XXX
+#	deleted:    schema/1.01/tapexamples/B2/1153/PCPR1153XXX
+#	deleted:    schema/1.01/tapexamples/B2/1153/PCTA1153XXX
+#	deleted:    schema/1.01/tapexamples/B2/1181/PCAV1181XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/1181/PCAV1181XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/1181/PCCV1181XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/1181/PCCV1181XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/1181/PCET1181XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/1181/PCGA1181XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/1181/PCGA1181XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/1181/PCPR1181XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/1181/PCPR1181XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/1181/PCTA1181XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/1181/PCTA1181XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/1181/PCZO1181XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/1181/PCZO1181XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/71/PCAV-After Sales/PCAV0071XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/71/PCAV-After Sales/PCAV0071XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/71/PCCA-Memo/PCCA0071XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/71/PCCA-Memo/PCCA0071XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/71/PCCV-Sales Conditions/PCCV0071XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/71/PCCV-Sales Conditions/PCCV0071XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/71/PCDI-Distribution/PCDI0071XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/71/PCDI-Distribution/PCDI0071XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/71/PCET0071XXX
+#	deleted:    schema/1.01/tapexamples/B2/71/PCEX-Exclusions/PCEX0071XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/71/PCEX-Exclusions/PCEX0071XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/71/PCGA-Range/PCGA0071XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/71/PCGA-Range/PCGA0071XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/71/PCGO-Group OD/PCGO0071XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/71/PCGO-Group OD/PCGO0071XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/71/PCNC-Name cards/PCNC0071XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/71/PCNC-Name cards/PCNC0071XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/71/PCPR-Price/PCPR0071XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/71/PCPR-Price/PCPR0071XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/71/PCPR-Price/~$PCPR0071XXX.xlsx
+#	deleted:    schema/1.01/tapexamples/B2/71/PCTA-Tariff/PCTA0071XXX.txt
+#	deleted:    schema/1.01/tapexamples/B2/71/PCTA-Tariff/PCTA0071XXX.xlsx
+#
+
