@@ -277,7 +277,7 @@ Rail transport, Roads and road transport
 			<xsd:documentation>Subsititutable type for a SIRI Functional Service request.</xsd:documentation>
 		</xsd:annotation>
 	</xsd:element>
-	<xsd:complexType name="AbstractFunctionalServiceRequestStructure">
+	<xsd:complexType name="AbstractFunctionalServiceRequestStructure" abstract="true">
 		<xsd:annotation>
 			<xsd:documentation>Abstract Service Request for SIRI Service request.</xsd:documentation>
 		</xsd:annotation>
