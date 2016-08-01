@@ -1,21 +1,21 @@
 NeTEX XMl schema
 (C) 2009-2016  NeTEX , CEN, Crown Copyright
         
-NeTwork EXchange : Core, Part 1 (Network),  Part 2 (Timetables , Part3 (Fares)   Schemas
+NeTwork EXchange XML Schemas: Core, Part 1 (Network), Part 2 (Timetables), Part3 (Fares)
 ================================================
 Version 1.04 - Base version plus minor fixes comprising Norway contributions
  
 See the NeTEx UML Physical and Conceptual models for an UML view
 
-The Part 1, Part 2 & Part3 Schemas include minor  corrections since the issue of the documents, 
+The Part 1, Part 2 & Part3 Schemas include minor corrections since the issue of the documents 
 
-There is an XMLSpy project file in the root directory  that provides an organised view  of the schema and examples
+There is an XMLSpy project file in the root directory that provides an organised view  of the schemas and examples
     
   - netex-v1.04.spp
   
 There is also an Oxygen project file
 
-   - netex-v1.04.xpr
+  - netex-v1.04.xpr
 
 ====================
 
