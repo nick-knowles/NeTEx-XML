@@ -572,7 +572,7 @@ Rail transport, Roads and Road transport
 					<xsd:documentation>pti23_23</xsd:documentation>
 				</xsd:annotation>
 			</xsd:enumeration>
-			<xsd:enumeration value="coffeeSohp"/>
+			<xsd:enumeration value="coffeeShop"/>
 			<xsd:enumeration value="hotFoodService"/>
 			<xsd:enumeration value="selfService"/>
 			<xsd:enumeration value="snacks">
