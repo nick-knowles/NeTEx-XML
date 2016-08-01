@@ -175,7 +175,7 @@ Long distance train formed by a unit capable for high speed or not running on hi
 </xsd:documentation>
 				</xsd:annotation>
 			</xsd:enumeration>
-			<xsd:enumeration value="intermational"/>
+			<xsd:enumeration value="international"/>
 			<xsd:enumeration value="sleeperRailService"/>
 			<xsd:enumeration value="nightRail"/>
 			<xsd:enumeration value="carTransportRailService">
