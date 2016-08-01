@@ -551,7 +551,7 @@ Rail transport, Roads and Road transport
 				</xsd:annotation>
 			</xsd:enumeration>
 			<xsd:enumeration value="buffet"/>
-			<xsd:enumeration value="noFoodAvailableAvailable">
+			<xsd:enumeration value="noFoodAvailable">
 				<xsd:annotation>
 					<xsd:documentation>pti23_19</xsd:documentation>
 				</xsd:annotation>
