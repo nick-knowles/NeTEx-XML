@@ -422,7 +422,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="truck"/>
 			<xsd:enumeration value="agriculturalVehicle"/>
 			<xsd:enumeration value="tanker"/>
-			<xsd:enumeration value="truck"/>
 			<xsd:enumeration value="tram"/>
 			<xsd:enumeration value="articulatedVehicle"/>
 			<xsd:enumeration value="vehicleWithTrailer"/>
