@@ -310,12 +310,12 @@ Rail transport, Roads and Road transport
 			</xsd:element>
 			<xsd:element name="ForAlighting" type="xsd:boolean" minOccurs="0">
 				<xsd:annotation>
-					<xsd:documentation>Whether by default a passenger can alight at SCHEDULED STOP POINT.</xsd:documentation>
+					<xsd:documentation>Default for whether SCHEDULED STOP POINT may be used for alighting. May be overridden on specific services.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
 			<xsd:element name="ForBoarding" type="xsd:boolean" minOccurs="0">
 				<xsd:annotation>
-					<xsd:documentation>Whether by default passenger can board at SCHEDULED STOP POINT.</xsd:documentation>
+					<xsd:documentation>Default for whether SCHEDULED STOP POINT may be used for boarding. May be overridden on specific services.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
 			<xsd:element name="RequestStop" type="xsd:boolean" default="false" minOccurs="0">
