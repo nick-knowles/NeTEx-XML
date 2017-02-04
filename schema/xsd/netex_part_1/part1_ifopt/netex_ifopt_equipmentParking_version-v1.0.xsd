@@ -108,7 +108,7 @@ Rail transport, Roads and Road transport
 		<xsd:sequence>
 			<xsd:element name="NumberOfSpaces" type="xsd:integer" minOccurs="0">
 				<xsd:annotation>
-					<xsd:documentation>Distance from Kerb / boarding point.</xsd:documentation>
+					<xsd:documentation>Number of spaces available.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
 			<xsd:element name="CycleStorageType" type="CycleStorageEnumeration" minOccurs="0">
