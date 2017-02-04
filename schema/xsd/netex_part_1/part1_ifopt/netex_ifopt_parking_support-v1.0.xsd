@@ -417,7 +417,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="van"/>
 			<xsd:enumeration value="largeVan"/>
 			<xsd:enumeration value="highSidedVehicle"/>
-			<xsd:enumeration value="highSidedVehicle"/>
 			<xsd:enumeration value="lightGoodsVehicle"/>
 			<xsd:enumeration value="heavyGoodsVehicle"/>
 			<xsd:enumeration value="truck"/>
