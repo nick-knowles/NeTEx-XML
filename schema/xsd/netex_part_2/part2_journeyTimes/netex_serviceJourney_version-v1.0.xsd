@@ -88,9 +88,7 @@ Rail transport, Roads and Road transport
 	</xsd:element>
 	<xsd:element name="ServiceJourney" abstract="false" substitutionGroup="VehicleJourney_">
 		<xsd:annotation>
-			<xsd:documentation>A planned VEHICLE JOURNEY taking place on a particular DAY TYPE. 
-
-The VIEW includes derived ancillary data from referenced entities.</xsd:documentation>
+			<xsd:documentation>A passenger carrying VEHICLE JOURNEY for one specified DAY TYPE. The pattern of working is in principle defined by a SERVICE JOURNEY PATTERN.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:complexContent>
