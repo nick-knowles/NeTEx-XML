@@ -59,7 +59,7 @@ Rail transport, Roads and Road transport
 	<!--====Version =======================================================================-->
 	<xsd:simpleType name="VersionIdType">
 		<xsd:annotation>
-			<xsd:documentation>A revision identifier (e.g. a number) that should be updated (e.g. increased) each time the unit that is refers to is modified.</xsd:documentation>
+			<xsd:documentation>A revision number is an integer that should be increased by one each time the unit that is refers to is modified.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="ObjectIdType"/>
 	</xsd:simpleType>
