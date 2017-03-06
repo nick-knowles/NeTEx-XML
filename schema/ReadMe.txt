@@ -1,5 +1,5 @@
 NeTEX XMl schema
-(C) 2009-2016  NeTEX , CEN, Crown Copyright
+(C) 2009-2017  NeTEX , CEN, Crown Copyright
         
 NeTwork EXchange XML Schemas: Core, Part 1 (Network), Part 2 (Timetables), Part3 (Fares)
 ================================================
@@ -34,7 +34,30 @@ In addition
 
 There are XML examples  of the use of both protocols. see examples subdirectory.
    
-=====================================================================================================================
+=============================================================================================
+
+
+Proposed changes (Norway):
+--------------------------
+
+- 2017.02.23 v 1.04
+    - Futher documentation alignments (multiple elements in  /netex_part_1/part1_networkDescription/netex_flexibleNetwork_version-v1.0.xsd  aligned to NeTEx standard part 1) 
+
+- 2017.02.15 v 1.04
+    - Set PassengerEquipment "Gender" as not mandatory according to specification
+      (/netex_part_1/part1_ifopt/netex_ifopt_equipmentPassenger_version-v1.0.xsd)
+
+- 2017.02.04 v 1.04
+    - Aliged a few <xsd:documentation> to better match the definition/description in the NeTEx specification documents
+    - Removed duplicate values in ParkingVehicleEnumeration ("highSidedVehicle" and "truck" both listed twice in enumerations)
+    - Deleted redundant schema /netex_part_1/part1_tacticalPlanning/netex_journeyTimings_version-v1.0.xsd (file was duplicate of netex_journeyTiming_version-v1.0.xsd and not referenced) 
+
+- 2016.08.03 v 1.04
+    - Replacement of carriage returns with new lines (for e.g. easier file change diff)
+
+- 2016.08.01 v 1.04
+    - Corrected enumeration values ("noFoodAvailableAvailable" to "noFoodAvailable", "intermational" to "international" and "coffeeSohp" to "coffeeShop")
+
  
 =============================================================================================
 Change List
@@ -56,7 +79,7 @@ Change List
             - Added constraint in <KeyList> element in netex_responsibility_version-v1.0.xsd
             - Added LE Corbusier stop place example (French Stop profile compliant) in examples\standards\neptune
             - Add no constraint version of schema for slow XML spy use.
-xxx
+
      - 2015.03.17  v 1.01
             - Add support for GTFS timing interpolated 
                  Add attribute interpolated to CallPart  dx]
@@ -1399,7 +1422,7 @@ Add more integrity constraints for Equipment, etc x
    -Add UicAvailabilitryCondition that allows ValidDayBits  x dx [era] 
    - Reservation facilitie sadded for uic 7037 x. dx. [era]
     
-  <xsd:enumeration value="reservationsCompulsory"/>
+<xsd:enumeration value="reservationsCompulsory"/>
 <xsd:enumeration value="reservationsCompulsoryForGroups"/>
 <xsd:enumeration value="reservationsCompulsoryForFirstClass"/>
 <xsd:enumeration value="reservationsCompulsoryFromOriginStation"/>
@@ -1459,56 +1482,52 @@ Add more integrity constraints for Equipment, etc x
 <xsd:enumeration value="nurseryService"/>
     -Add DaysOfWeek to UicOperatingPeriod  x dx [era] 
       -Allow negative day offset x dx [era] 
-  - Add linksequenceProjection to handle LineString etc x dx   [gtfs]    
-      
-
+  - Add linksequenceProjection to handle LineString etc x dx   [gtfs]
 * The physical schema has a DutyStretchModel which is not in the XSD 
+
 2011.07.04  v0.98,1
    - Further VDV enablement changes
    - Add VehicleMode to TimeDemandTiming [vdv] x dx. 
    - Add VehicleMode to ServiceLink [vdv] x dx.
    - Add VehicleRegistrationNumber & OperatorRef  to Vehicle [vdv] x dx. 
    - Add PrivateCode to TimeDemandType, InterchangeRule [vdv] x dx. 
-  - Add ControlCentreRef to  , InterchangeRule [vdv] x dx.  
-  - Add MaximumTransferTime  to    InterchangeRule , Interchange [vdv] x dx. 
-      - Add DayTypeRef  to   Block [vdv] x dx. 
-         - TransportMode added as Explicit type of value to allow reflection. However   [vdv] x dx,.  
-         - Add TypeOfServceRef to Journey    [vdv] x dx,  
-         - Add Announcement Support dep
-         -Add NoticeRef to StopPointInPattern, PointInJourneyPattern, [vdv] x dx. 
-         -Add TypeOfNotice to footnote package. x dx.  
-         - Add Name to Block, InterchangeRule, etc  x dx.
-         - Add DepartmentRef to Line and VehicleJourney, TimeDemandTiming and JourneyPattern [vdv] x dx. dep
-         - Add FromPointRef and ToPointRef to DeadRun and ServiceJourney  x dx .
-    - Add explict StopArea and TariffZone rels to ScheduledStopPoint x .
-   
+   - Add ControlCentreRef to  , InterchangeRule [vdv] x dx.  
+   - Add MaximumTransferTime  to    InterchangeRule , Interchange [vdv] x dx. 
+   - Add DayTypeRef  to   Block [vdv] x dx. 
+   - TransportMode added as Explicit type of value to allow reflection. However   [vdv] x dx,.  
+   - Add TypeOfServceRef to Journey    [vdv] x dx,  
+   - Add Announcement Support dep
+   - Add NoticeRef to StopPointInPattern, PointInJourneyPattern, [vdv] x dx. 
+   - Add TypeOfNotice to footnote package. x dx.  
+   - Add Name to Block, InterchangeRule, etc  x dx.
+   - Add DepartmentRef to Line and VehicleJourney, TimeDemandTiming and JourneyPattern [vdv] x dx. dep
+   - Add FromPointRef and ToPointRef to DeadRun and ServiceJourney  x dx .
+   - Add explict StopArea and TariffZone rels to ScheduledStopPoint x .   
    - Revise timetable  examples
-     - Reorganise folder structure so that examples are not children of schema folder
+   - Reorganise folder structure so that examples are not children of schema folder
      0.98 /examples/
           /xml/
    - Reorganize in increasing complexity,  basic, with timings etc 
-   - Rrevise  branched and simple route examples
-    - Add circular route example
-    - Add branching route example 2nd variant
-    - Add example of use of  Announcement Notices to basic Example with timimngs 
-      - Revise use of run times in  examples
+   - Revise  branched and simple route examples
+   - Add circular route example
+   - Add branching route example 2nd variant
+   - Add example of use of  Announcement Notices to basic Example with timimngs 
+   - Revise use of run times in  examples
          - Add PI Facility example
          - Make Journey Patterns Service Journey Patterns in examples
- - Add examples of Activation points
-
+   - Add examples of Activation points
    - Make relation names more consistent - drop ise of Refs in names
    - rename ServicePattern/journeyPatternRefs to journeyPatterns x   [Model CHANGE]
    - rename Line/routeRefs  tpo Line/routes  x   [Model CHANGE]
-  - rename SpatialFeature/PointRefs to SpatialFeature/points x   [Model CHANGE]
+   - rename SpatialFeature/PointRefs to SpatialFeature/points x   [Model CHANGE]
    - rename LocalService/TypeOfServiceFeatureRefs to  LocalService/typesOfServiceFeatures x   [Model CHANGE]
-    - rename NavigationPath/TransferRefs to NavigationPath/transfers x   [Model CHANGE]
-    - rename Site/AdjacentSiteRefs to Site/AdjacentSiteRefs x   [Model CHANGE]
-    - rename TopographicPlace/AdjacentPlaceRefs to TopographhicPlace/AdjacentPlaces x   [Model CHANGE]
-    - rename FootnoteAssignment/ValidityCOnditionRefs to FootnoteAssignment/ValidityCOnditionRefs x   [Model CHANGE]
-    - rename VehicleJourney/TimeDemandTypeRefs to VehicleJourney/TimeDemandTypeRefs x   [Model CHANGE]
+   - rename NavigationPath/TransferRefs to NavigationPath/transfers x   [Model CHANGE]
+   - rename Site/AdjacentSiteRefs to Site/AdjacentSiteRefs x   [Model CHANGE]
+   - rename TopographicPlace/AdjacentPlaceRefs to TopographhicPlace/AdjacentPlaces x   [Model CHANGE]
+   - rename FootnoteAssignment/ValidityCOnditionRefs to FootnoteAssignment/ValidityCOnditionRefs x   [Model CHANGE]
+   - rename VehicleJourney/TimeDemandTypeRefs to VehicleJourney/TimeDemandTypeRefs x   [Model CHANGE]
    - Correct substitution  hierarchies for Journey, pattern, LinkSequence, LinkInSequence, PointInSequence etc
    - Add destination display  vias, to PointInPattern,  rename displayVias to Vias  x dx.
-
    - Correct PI facility, add LINE and DIRECTION filters  x dx.
    - For consistency  Change order of description on ServiceJourneyInterchange  x dx. [Model CHANGE]
    - Correct Point on Link not to be abstract.
@@ -1559,41 +1578,34 @@ Add more integrity constraints for Equipment, etc x
    - Drop GroupOfLinks, 
    - TimeDemandAssignment  
    - Add   identity constraints
-     - Rename identifier of Versioned ChildCid rather than id so that can have different constraints
+   - Rename identifier of Versioned ChildCid rather than id so that can have different constraints
    - Add  Id to footnote assignmentView x
    - Add Id to AccessSummary  x
    - Add  genericIDentity Constraints  Eid, Id/version   cid/version/ ,  
-          Special cases Namespace  xmlns,  Datasource/Id
-          
+          Special cases Namespace  xmlns,  Datasource/Id          
    -  Revise NameSpace element : rename to Namespace, rename id to Xmlns, rename Xmlnsurl x dx (MODEL CHANGE) 
    - Change order of Namespaces in ResourceFrame x (MODEL CHANGE) 
    - Add Data source & versiouins to resoucre frame  x
    - NavigationPath make children VersionChildSTructure x
-  - Revise All example to show name  Id types eg nid:Quay:1234
- - Make responsibility role assignment a versioned child x
- - Revise examples to use  names space:objectType:identifier   
-     
-    - Rename EquipmentTypeRef to TypeOfEquipment
-    - Add DataSource
-    - Allow displayVias on Call as well as destination display [txc] dx
-    - Allow DutyPartRef on Call [txc] x dx
-  
-  
-    - Rename  ModeRef to TransportMode x dx (MODEL CHANGE)
-    - Rename EquipmentType to TypeOfEquiment
-    - Rename v_vesrioing to _version_version  and _versionAttributes to _versionSupport x
-
-    - Rename ID on ENitity to Eid to allow for separate identity constraints x   (MODEL CHANGE)
-    - Add RoutingConstraint Package
-    - Add Short Name & Private code to Operating day  [VDV] dx x 
-    - Add  Private code to Day Type [VDV gd]   dx x
-    - Add Short Name & Private code to Activation Point day  [VDV gd ] dx x 
-    - Add Short Name & Private code to Vehicle  [VDVgd ] dx x 
-    - Add DefaultResponsibiltySet to Farem dx x
-    - Allow list of vals  roles on responsibility role assignment
-    - Correct DutyPart too dutyParts
-
-      
+   - Revise All example to show name  Id types eg nid:Quay:1234
+   - Make responsibility role assignment a versioned child x
+   - Revise examples to use  names space:objectType:identifier     
+   - Rename EquipmentTypeRef to TypeOfEquipment
+   - Add DataSource
+   - Allow displayVias on Call as well as destination display [txc] dx
+   - Allow DutyPartRef on Call [txc] x dx  
+   - Rename  ModeRef to TransportMode x dx (MODEL CHANGE)
+   - Rename EquipmentType to TypeOfEquiment
+   - Rename v_vesrioing to _version_version  and _versionAttributes to _versionSupport x
+   - Rename ID on ENitity to Eid to allow for separate identity constraints x   (MODEL CHANGE)
+   - Add RoutingConstraint Package
+   - Add Short Name & Private code to Operating day  [VDV] dx x 
+   - Add  Private code to Day Type [VDV gd]   dx x
+   - Add Short Name & Private code to Activation Point day  [VDV gd ] dx x 
+   - Add Short Name & Private code to Vehicle  [VDVgd ] dx x 
+   - Add DefaultResponsibiltySet to Farem dx x
+   - Allow list of vals  roles on responsibility role assignment
+   - Correct DutyPart too dutyParts
 
 2011.03.20  v0.96
    - Add Key List to DataManagedObject   [Paris mtg] 11.03 dx x 
@@ -1729,11 +1741,12 @@ Add example of train splitting and joining based on SJ example
    - Revise FlexibleQuay, StopPlace to be simple - just Places.
    - Rename folders to match conceptual and physical model
         netex_general\     ==> netex_reusableComponents\
-netex_framework\    ==> netex_genericFramework\
-netex_core\   ==> netex_framework\
-netex_baseTypes\     ==> netex_utility\
-netex_entityversion\     ==>netex_responsibility\
-netext_ifopt             ==> netex_part_1/part1_ifopt  etc   
+        netex_framework\    ==> netex_genericFramework\
+        netex_core\   ==> netex_framework\
+        netex_baseTypes\     ==> netex_utility\
+        netex_entityversion\     ==>netex_responsibility\
+        netext_ifopt             ==> netex_part_1/part1_ifopt  etc   
+
 2010.12.01  v0.92
    - Revise Frames: Revise frames Separate package, Split networkFrame into  Infrastructure &  Service , Site  
    - Use list for modes , other modes
@@ -1742,6 +1755,7 @@ netext_ifopt             ==> netex_part_1/part1_ifopt  etc
    - Add POI component
    - Make PI facility a type of equipment so it can be located
    - Add course of journey and vehicle service
+
 2010.12.01 v0.91
    - Revise Frames: Add General Frame. Make  Network  Timetable frame explicit
    - Revsie filters to allow frame references
@@ -1800,6 +1814,7 @@ netext_ifopt             ==> netex_part_1/part1_ifopt  etc
    Added Footnotes
    Add SimpleTimetable Example
    Added examples of SIRI proptocol & publication proitocol
+
 2010.09.18
    Consolidate in single namespace - drop ifopt, acbs namespaces
    Make StopArea, Place subs  of Zone
@@ -1807,7 +1822,7 @@ netext_ifopt             ==> netex_part_1/part1_ifopt  etc
    Rename GroupOfElements  to Group of Entities
    Add TypeOF Service to Journey
 
-2010.08.06http://www.booking.com/searchresults.html?aid=317836;label=251_searchbox_251withdates;sid=e7fda4f0cfe47a98c7b43435f76686fd;checkin_year_month_monthday=2010-09-28;checkout_year_month_monthday=2010-09-30;class_interval=1;landmark=2028;pr_cur_code=GBP;;radius=100;offset=20;rows=20
+2010.08.06
    Integrate changes from CD
     
 2010.06.29  V086
@@ -1825,26 +1840,23 @@ netext_ifopt             ==> netex_part_1/part1_ifopt  etc
        Add Vehicle And Crew Point Pacakage
 
 2010.05.21  V085
-    
     Add detailed examples 
     Tidy up
 
-2010.05.12  V08
-    
+2010.05.12  V08 
     Combine Ifopt & Network hierarchy
     Add Wimbledon  example
     Revise Simple Network Example 
-    Extension 
-
+    Extension
 
 2009.12.31    
     rename NetworkFrame back to NetworkVersion
     split grouping and common object
-
     rename networkVersion to networkframe
-2009.12.31 
-   remove Siri dependencies
-     create separate folder for base & resuabel netex
+
+2009.12.31
+    remove Siri dependencies
+    create separate folder for base & resuabel netex
     create netex modes etc    
     rename versionedObject to entity in frame
     rename networkVersion to networkframe

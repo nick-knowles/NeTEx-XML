@@ -4,7 +4,7 @@ NeTEx-XML
 Netex XML Schema 
 
 NeTEX XMl schema
-(C) 2009-2017  NeTEX , CEN, Crown Copyright
+(C) 2009-2017  NeTEX, CEN, Crown Copyright
         
 NeTwork EXchange XML Schemas for : Core, Part 1 (Network), Part 2 (Timetables), Part 3 (Fares)
 ================================================
@@ -42,4 +42,3 @@ There are XML examples of the use of both protocols, see examples subdirectory.
    
 =====================================================================================================================
     See ReadMe.txt file for list of changes
-
