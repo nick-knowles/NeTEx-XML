@@ -753,7 +753,7 @@ Rail transport, Roads and Road transport
 					<xsd:documentation>Maximum load in Kilos.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
-			<xsd:element name="WheelchairPasssable" type="xsd:boolean" minOccurs="0">
+			<xsd:element name="WheelchairPassable" type="xsd:boolean" minOccurs="0">
 				<xsd:annotation>
 					<xsd:documentation>Whether wheelchair is judged wheelchair passable.</xsd:documentation>
 				</xsd:annotation>
