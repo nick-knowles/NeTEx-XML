@@ -755,7 +755,7 @@ Rail transport, Roads and Road transport
 			</xsd:element>
 			<xsd:element name="WheelchairPassable" type="xsd:boolean" minOccurs="0">
 				<xsd:annotation>
-					<xsd:documentation>Whether wheelchair is judged wheelchair passable.</xsd:documentation>
+					<xsd:documentation>Whether lift is judged wheelchair passable.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
 			<xsd:element name="WheelchairTurningCircle" type="LengthType" minOccurs="0">
